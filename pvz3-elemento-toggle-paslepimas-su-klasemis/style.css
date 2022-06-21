@@ -1,0 +1,7 @@
+#pastraipa {
+    display: block;
+}
+
+#pastraipa.pasleptas {
+    display: none;
+}
