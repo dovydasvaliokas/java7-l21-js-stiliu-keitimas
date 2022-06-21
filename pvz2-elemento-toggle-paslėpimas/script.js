@@ -8,6 +8,12 @@ window.onload = function () {
 }
 
 
+/**
+ * Funkcija paslėpia arba parodo elementą, atitinkamai nuo to koks prieš tai jis buvo.
+ * Jeigu buvo paslėptas - jį parodo.
+ * Jeigu buvo rodomas - jį paslepia.
+ * @param {*} elementas - elementas, kurį reikia arba paslėpti, arba parodyti.
+ */
 function togglePaslepti(elementas) {
     if (elementas.style.display != "none") {
         console.log("adsasdasd");
